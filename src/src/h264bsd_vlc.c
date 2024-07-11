@@ -35,7 +35,7 @@
 ------------------------------------------------------------------------------*/
 
 #include "h264bsd_vlc.h"
-#include "basetype.h"
+#include "h264_decoder/basetype.h"
 #include "h264bsd_stream.h"
 #include "h264bsd_util.h"
 

@@ -14,6 +14,9 @@ extern "C" {
 
 }
 
+namespace h264
+{
+    
 // This is just H264SwDecRet with clearer names
 enum StreamStatus {
     PIC_READY                  = 0, // Picture is ready and no more data is on buffer
@@ -50,3 +53,5 @@ private:
 u32 broadwayGetMajorVersion();
 
 u32 broadwayGetMinorVersion();
+
+}//namespace h264

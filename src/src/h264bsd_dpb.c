@@ -58,7 +58,7 @@
 #include "h264bsd_slice_header.h"
 #include "h264bsd_image.h"
 #include "h264bsd_util.h"
-#include "basetype.h"
+#include "h264_decoder/basetype.h"
 
 /*------------------------------------------------------------------------------
     2. External compiler flags

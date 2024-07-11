@@ -37,9 +37,9 @@
 ------------------------------------------------------------------------------*/
 #include <stdlib.h>
 #include <string.h>
-#include "basetype.h"
+#include "h264_decoder/basetype.h"
 #include "h264bsd_container.h"
-#include "H264SwDecApi.h"
+#include "h264_decoder/H264SwDecApi.h"
 #include "h264bsd_decoder.h"
 #include "h264bsd_util.h"
 

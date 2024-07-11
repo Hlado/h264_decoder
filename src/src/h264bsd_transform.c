@@ -33,7 +33,7 @@
     1. Include headers
 ------------------------------------------------------------------------------*/
 
-#include "basetype.h"
+#include "h264_decoder/basetype.h"
 #include "h264bsd_transform.h"
 #include "h264bsd_util.h"
 

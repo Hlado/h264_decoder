@@ -28,13 +28,13 @@
 #ifndef H264SWDEC_MACROBLOCK_LAYER_H
 #define H264SWDEC_MACROBLOCK_LAYER_H
 
-#include "opttarget.h"
+#include "h264_decoder/opttarget.h"
 
 /*------------------------------------------------------------------------------
     1. Include headers
 ------------------------------------------------------------------------------*/
 
-#include "basetype.h"
+#include "h264_decoder/basetype.h"
 #include "h264bsd_stream.h"
 #include "h264bsd_image.h"
 #include "h264bsd_dpb.h"

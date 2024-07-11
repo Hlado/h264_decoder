@@ -36,14 +36,14 @@
 #include <assert.h>
 #endif
 
-#include "H264SwDecApi.h"
+#include "h264_decoder/H264SwDecApi.h"
 
 #if defined(_RANGE_CHECK) || defined(_DEBUG_PRINT) || defined(_ERROR_PRINT)
 #include <stdio.h>
 #endif
 
 #include <stdint.h>
-#include "basetype.h"
+#include "h264_decoder/basetype.h"
 #include "h264bsd_stream.h"
 #include "h264bsd_image.h"
 

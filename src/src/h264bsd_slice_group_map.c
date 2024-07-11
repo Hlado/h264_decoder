@@ -37,7 +37,7 @@
     1. Include headers
 ------------------------------------------------------------------------------*/
 
-#include "basetype.h"
+#include "h264_decoder/basetype.h"
 #include "h264bsd_slice_group_map.h"
 #include "h264bsd_cfg.h"
 #include "h264bsd_pic_param_set.h"
