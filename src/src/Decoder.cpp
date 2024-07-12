@@ -29,7 +29,7 @@ Stream::~Stream()
 {
     if(streamBuffer)
     {
-        free(streamBuffer);
+        delete streamBuffer;
     }
 }
 
@@ -66,7 +66,7 @@ void Stream::UpdateStream(u8 *strmBuffer, u32 strmLength)
     memcpy(new_buffer, streamBuffer + currPackagePos, last_package_size);
     // and add the new one
     memcpy(new_buffer + last_package_size, strmBuffer, strmLength);
-    free(streamBuffer);
+    delete streamBuffer;
     streamBuffer = new_buffer;
 
     bufferSize = new_buffer_size;
