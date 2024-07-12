@@ -33,7 +33,7 @@ Stream::~Stream()
     }
 }
 
-void Stream::SetStream(u8 *strmBuffer, u32 strmLength)
+void Stream::SetStream(const u8 *strmBuffer, u32 strmLength)
 {
     u8 *new_buffer = new u8[strmLength];
     if(new_buffer == NULL)
@@ -51,7 +51,7 @@ void Stream::SetStream(u8 *strmBuffer, u32 strmLength)
 }
 
 
-void Stream::UpdateStream(u8 *strmBuffer, u32 strmLength)
+void Stream::UpdateStream(const u8 *strmBuffer, u32 strmLength)
 {
     u32 new_buffer_size = bufferSize - currPackagePos + strmLength;
     u8 *new_buffer = new u8[new_buffer_size];

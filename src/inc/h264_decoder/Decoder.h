@@ -30,8 +30,8 @@ public:
     ~Stream();
 
     u8* GetFrame(u32* outImageWidth, u32* outImageHeight);
-    void SetStream(u8* strmBuffer, u32 strmLength);
-    void UpdateStream(u8* strmBuffer, u32 strmLength);
+    void SetStream(const u8* strmBuffer, u32 strmLength);
+    void UpdateStream(const u8* strmBuffer, u32 strmLength);
     StreamStatus BroadwayDecode();
 
 private:
